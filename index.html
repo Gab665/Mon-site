@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 200px;
+            background-color: #f0f0f0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 12px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+
+        .content {
+            margin-left: 200px;
+            padding: 0;
+            height: 100vh;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <center> <table><tr><th><img src="UAC.jpg" alt="logo uac"
+        height="200" width="200"></th><th><strong><p><u>SOYEZ LES BIENVENUE SUR MON SITE </u></p></strong></th><th><img src="eneam.jpg" alt="logo ENEAM" height="200" width="200"></th></tr></table><br></center>
+    </div>
+     <div  style="background-color: aquamarine;padding:6px; color: white;"  class="sidebar">  
+        <h1>MENU</h1>
+       
+        <a href="page1.html" target="contenu">Page 1</a>
+        <a href="page2.html" target="contenu">Page 2</a>
+        <a href="page3.html" target="contenu">Page 3</a>
+        <a href="page4.html" target="contenu">Page 4</a>
+        <a href="formulaire1.html" target="contenu">formulaire 1</a>
+        <a href="formulaire2.html" target="contenu">formulaire 2</a>
+        <a href="CV.html" target="contenu">CV</a>
+        <a href="tableau.html" target="contenu">tableaux</a>
+    </div>
+
+    <div class="content">
+        <iframe name="contenu" src="bienvenue.html"></iframe>
+    </div>    
+
+</body>
+</html>
